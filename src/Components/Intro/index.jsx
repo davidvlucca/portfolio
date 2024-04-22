@@ -1,0 +1,59 @@
+
+
+// z-index: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   max-width: 80rem/* 1280px */;
+//   gap: 1rem/* 16px */;
+
+// .hero {
+//   display: grid;
+//   width: 100%;
+//   place-items: center;
+//   background-size: cover;
+//   background-position: center;
+// }
+
+function Intro() {
+  return (
+    <div className=" px-2  ">
+      <div className="py-10 sm:p-24">
+        <h3 className="text-white text-xl font-bold px-3 py-1 rounded-xl w-fit bg-[#333333]/50">
+          👋 Hey!
+        </h3>
+        <h1 className="text-left pt-3 text-6xl font-extrabold">David Lucca</h1>
+        <p className="text-left font-normal text-2xl">Front-End Developer</p>
+      </div>
+      {/* <div className="flex space-x-5 align-middle  items-center ">
+        <a
+          href={CV}
+          download="davidlucca_cv.pdf"
+          className="text-left flex space-x-1 items-center hover:opacity-70 transition-opacity duration-300"
+        >
+          <p className=" font-medium text-2xl ">Baixar CV</p>
+          <MdDownload className="text-3xl" />
+        </a>
+        <a
+          href="https://wa.me/968038514"
+          target="_blank"
+          className="text-left flex flex-row space-x-3  rounded-lg items-center hover:bg-green-600 transition-colors duration-300 "
+        >
+          <ImWhatsapp className="text-2xl" />
+          <p className="text-xl font-medium">Vamos conversar</p>
+        </a>
+      </div> */}
+      {/* <div className="card md:max-w-[60rem] md:flex md:align-middle md:place-items-center md:justify-center md:items-center bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="card-title">Card title!</h2>
+          <p className='text-left'>If a dog chews shoes whose shoes does he choose?</p>
+          <div className="card-actions justify-start">
+            <button className="btn rounded btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div> */}
+    </div>
+  );
+}
+
+export default Intro;
