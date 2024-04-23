@@ -2,16 +2,16 @@ import { projectsInfo } from "../../assets/projectsData";
 import { HiExternalLink } from "react-icons/hi";
 import { RxGithubLogo } from "react-icons/rx";
 
-function Projects() {
+function ProjectsMobile() {
 
 
   return (
-    <div className="py-5">
+    <div className="pb-10 px-4">
       <div className="py-1 px-4 sm:p-24">
         <h3 className="text-white text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
           🔗 Portfolio
         </h3>
-        <h1 className="text-3xl w-1/2 text-left py-5 font-extrabold">
+        <h1 className="text-2xl w-1/2 text-left py-5 font-extrabold">
           Trabalhos e projetos
         </h1>
       </div>
@@ -79,4 +79,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsMobile;

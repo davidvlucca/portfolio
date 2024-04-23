@@ -7,8 +7,8 @@ function Hero() {
   const { t } = useTranslation("global");
 
   return (
-    <div>
-      <div className="hero py-10  ">
+    <div className="px-4 mM:px-2 mS:px-0">
+      <div className="hero py-12 mM:py-8 mS:py-4  ">
         <div className="hero-content flex-col xl:flex-row xl:space-x-10">
           <img src="/me.jpg" className=" rounded-full shadow-2xl" />
           <div className="text-left pt-10 m-0 p-0">

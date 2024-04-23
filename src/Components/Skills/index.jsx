@@ -9,12 +9,12 @@ import { SiDaisyui } from "react-icons/si";
 
 function Technologies() {
   return (
-    <div className=" pb-10">
+    <div className="px-4 pb-10">
       <div className="py-1 px-4 sm:p-24">
         <h3 className="text-white text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
           🧑‍💻 Skills
         </h3>
-        <h1 className="text-3xl w-1/2 text-left py-5 font-extrabold">
+        <h1 className="text-2xl w-1/2 text-left py-5 font-extrabold">
           Tecnologias e habilidades
         </h1>
         <div className="flex space-x-5 max-w-[100vw]">

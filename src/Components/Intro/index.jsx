@@ -17,13 +17,13 @@
 
 function Intro() {
   return (
-    <div className=" px-2  ">
-      <div className="py-10 sm:p-24">
-        <h3 className="text-white text-xl font-bold px-3 py-1 rounded-xl w-fit bg-[#333333]/50">
+    <div className=" px-8 mM:px-6 mS:px-4 ">
+      <div className="py-12 mM:py-8 mS:py-4">
+        <h3 className="text-white text-xl mM:text-base font-bold px-3 py-1 rounded-xl w-fit bg-[#333333]/50">
           👋 Hey!
         </h3>
-        <h1 className="text-left pt-3 text-6xl font-extrabold">David Lucca</h1>
-        <p className="text-left font-normal text-2xl">Front-End Developer</p>
+        <h1 className="text-left pt-3 text-6xl mM:text-5xl font-extrabold">David Lucca</h1>
+        <p className="text-left font-normal text-2xl mM:text-xl">Front-End Developer</p>
       </div>
       {/* <div className="flex space-x-5 align-middle  items-center ">
         <a

@@ -37,7 +37,7 @@ function Navbar() {
   };
 
   return (
-    <div className="">
+    <div className="p-5 mM:p-4 mS:p-2">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <label className="swap swap-rotate">
@@ -51,10 +51,10 @@ function Navbar() {
             />
 
             {/* sun icon */}
-            <PiSunBold className="swap-on fill-current w-8 h-8 cursor-pointer" />
+            <PiSunBold className="swap-on fill-current w-8 h-auto cursor-pointer" />
 
             {/* moon icon */}
-            <PiMoonBold className="swap-off fill-current w-8 h-8" />
+            <PiMoonBold className="swap-off fill-current w-8 h-auto" />
           </label>
         </div>
         <div className="navbar-center text-3xl md:hidden">
