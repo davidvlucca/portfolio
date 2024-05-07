@@ -6,21 +6,21 @@ function ProjectsMobile() {
 
 
   return (
-    <div className="pb-10 px-4">
-      <div className="py-1 px-4 sm:p-24">
-        <h3 className="text-white text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
+    <div className="pb-10 px-4 mM:px-2 mS:px-0 lg:hidden">
+      <div className="py-1 px-4 md:p-10">
+        <h3 className="text-white md:text-2xl text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
           🔗 Portfolio
         </h3>
-        <h1 className="text-2xl w-1/2 text-left py-5 font-extrabold">
+        <h1 className="text-2xl md:w-full w-1/2 text-left md:text-4xl py-5 font-extrabold">
           Trabalhos e projetos
         </h1>
       </div>
-      <div className=" carousel-container">
+      <div className="md:px-4 carousel-container">
         <div className="carousel carousel-center m-4 space-x-4 ">
           {projectsInfo.map((item) => (
             <div
               key={item.id}
-              className="carousel-item bg-gradient-to-t from-primary from-5% px-6 pt-7 rounded-3xl max-w-[55vw]"
+              className="carousel-item bg-gradient-to-t from-primary from-5% px-6 pt-7 rounded-3xl mS:max-w-[70vw] mM:max-w-[65vw] max-w-[60vw]"
             >
               <div className="">
                 <h3 className="text-2xl font-bold text-left py-2">
