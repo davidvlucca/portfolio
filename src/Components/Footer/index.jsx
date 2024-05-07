@@ -5,9 +5,9 @@ import { IoLogoWhatsapp } from "react-icons/io";
 function Footer() {
   return (
     <div className="">
-      <div className="bg-red flex items-center w-full  p-4 justify-between bg-neutral text-neutral-content	">
+      <div className="bg-red flex xs:flex-col-reverse xs:gap-3 xs:p-5 items-center w-full  p-4 justify-between bg-neutral text-neutral-content	">
         <div>
-          <p className=" mM:text-xs mS:text-[10px] text-sm">
+          <p className="  text-sm">
             Copyright © 2024 - All right reserved
           </p>
         </div>
@@ -17,21 +17,21 @@ function Footer() {
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
           >
-            <RxLinkedinLogo className="w-7 mM:w-5 mS:w-4 h-auto" />
+            <RxLinkedinLogo className="w-7  h-auto" />
           </a>
           <a
             href="https://github.com/davidvlucca"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
           >
-            <RxGithubLogo className="w-7 mM:w-5 mS:w-4 h-auto" />
+            <RxGithubLogo className="w-7  h-auto" />
           </a>
           <a
             href="https://wa.me/968038514"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
           >
-            <IoLogoWhatsapp className="w-7 mM:w-5 mS:w-4 h-auto" />
+            <IoLogoWhatsapp className="w-7  h-auto" />
           </a>
         </div>
       </div>

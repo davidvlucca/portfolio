@@ -37,7 +37,7 @@ function Navbar() {
   };
 
   return (
-    <div className="p-5 mM:p-4 mS:p-2">
+    <div className="md:p-7 p-5 mM:p-4 mS:p-2">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <label className="swap swap-rotate">
