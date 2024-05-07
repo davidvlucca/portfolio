@@ -5,7 +5,7 @@ export const projectsInfo = [
     description:
       "Aplicação da barbearia Marques Jr. Desenvolvida com React. Aperfeiçoada com Tailwind CSS, totalmente responsivo",
     technologies: ["Online", "React JS"],
-    img: "placeholder2.png",
+    img: "marquesjr.png",
     github: "https://github.com/davidvlucca/marquesjr-app",
     demo: "https://marquesjr.com/",
   },
