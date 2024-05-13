@@ -1,17 +1,23 @@
 import "./App.css";
 
-import { Routes, Route } from "react-router-dom";
-
-import Home from "./Pages/HomePage";
-import Projects from "./Components/ProjectsMobile";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Intro from "./Components/Intro";
+import ProjectsMobile from "./Components/ProjectsMobile";
+import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
+import ProjectsDesktop from "./Components/ProjectsDesktop";
 
 function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />}></Route>
-      </Routes>
+      <Navbar></Navbar>
+      <Intro></Intro>
+      <Hero></Hero>
+      <ProjectsMobile></ProjectsMobile>
+      <ProjectsDesktop></ProjectsDesktop>
+      <Skills></Skills>
+      <Footer></Footer>
     </div>
   );
 }

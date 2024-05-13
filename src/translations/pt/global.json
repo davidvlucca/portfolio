@@ -1,9 +1,25 @@
 {
-  "hero": {
-    "title": "Desenvolvedor Front-End",
-    "desc1": "Olá!👋 Sou o David Lucca, um brasileiro de 20 anos que está a entrar na cena tecnológica enquanto absorve as fantásticas vibrações de Portugal.",
-    "desc2": "I'm all about crafting cool web experiences that make a statement. When I'm not lost in lines of code, catch me exploring virtual realms 🎮 or vibing to a mix of tunes 🎧. And you know what? I'm all about those deep, moody tones – they just vibe with my aesthetic choices ⚫.",
-    "desc3": "Wondering about my guiding principle? It's all about working hard 💪, staying determined 💡, and diving into coding challenges like they're thrilling adventures 🚀. With solid communication 🗣️ and a knack for problem-solving 🧩, I'm eager to make my mark in the tech world.",
-    "desc4": "I'm excited to connect with fellow enthusiasts into personal growth and self-discovery. Let's link up and explore where our interests align or even cook up something awesome together! 🚀"
+  "intro": {
+    "emoji": "👋 Olá!",
+    "title": "Desenvolvedor Front-End"
+  },
+  "about": {
+    "emoji": "🧐 Sobre Mim",
+    "desc1": "Olá! 👋 Eu sou David Lucca, um brasileiro de 21 anos enfrentando o cenário tecnológico enquanto absorvo as vibrações incríveis de Portugal.",
+    "desc2": "Estou sempre criando experiências web incríveis que fazem a diferença. Quando não estou perdido em linhas de código, você pode me encontrar explorando reinos virtuais 🎮 ou curtindo uma mistura de músicas 🎧. E sabe de uma coisa? Eu adoro tons profundos e melancólicos - eles combinam perfeitamente com as minhas escolhas estéticas ⚫.",
+    "desc3": "Curioso sobre meu princípio orientador? É tudo sobre trabalhar duro 💪, manter-se determinado 💡 e mergulhar nos desafios de codificação como se fossem aventuras emocionantes 🚀. Com uma comunicação sólida 🗣️ e habilidade para resolver problemas 🧩, estou ansioso para deixar minha marca no mundo da tecnologia.",
+    "cv": "Baixar Currículo"
+  },
+  "portfolio": {
+    "emoji": "🔗 Portfólio",
+    "title": "Trabalhos e Projetos",
+    "marques_jr_desc": "A aplicação da barbearia Marques Jr. é desenvolvida utilizando React, proporcionando uma interface amigável para os clientes agendarem consultas e explorarem os serviços. É feita responsiva com Tailwind CSS, garantindo funcionalidade perfeita em vários dispositivos.",
+    "kampus_desc": "Kampus é um aplicativo web que transforma a gestão de campus, simplificando tarefas de alunos e funcionários. Ele melhora a integração e a vida diária no campus com ferramentas organizacionais.",
+    "pokedex_desc": "Uma Single Page Application com React, apresentando várias visualizações. O aplicativo React interage perfeitamente com um backend simulado e uma API externa, lidando com todas as operações CRUD no backend.",
+    "mario_breakout_desc": "Um jogo que coloca um toque de Mario no clássico 'Breakout'. É viciante e direto: você manobra uma plataforma para rebater uma bola, quebrando blocos até que todos desapareçam."
+  },
+  "skills": {
+    "emoji": "🧑‍💻 Habilidades",
+    "title": "Tecnologias e Habilidades"
   }
 }

@@ -2,35 +2,39 @@ export const projectsInfo = [
   {
     id: 1,
     title: "Marques Jr",
-    description:
-      "Aplicação da barbearia Marques Jr. Desenvolvida com React. Aperfeiçoada com Tailwind CSS, totalmente responsivo",
+    desc: "portfolio.marques_desc",
     technologies: ["Online", "React JS"],
-    img: "marquesjr.png",
+    img: "marquesjr_square.webp",
     github: "https://github.com/davidvlucca/marquesjr-app",
     demo: "https://marquesjr.com/",
   },
   {
     id: 2,
-    title: "Move.it",
-    description:
-      "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-    technologies: ["React JS", "NextJS"],
-    img: "placeholder2.png",
+    title: "Kampus",
+    desc: "portfolio.kampus_desc",
+    technologies: ["MERN Stack", "TailwindCSS"],
+    img: "kampus_square.webp",
+    github: "https://github.com/davidvlucca/kampus",
+    demo: "https://thekampus.netlify.app/",
   },
   {
     id: 3,
-    title: "Move.it",
-    description:
-      "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
+    title: "Pokedex",
+    desc:
+      "portfolio.pokedex_desc",
     technologies: ["React JS", "NextJS"],
-    img: "placeholder2.png",
+    img: "pokedex_square.webp",
+    github: "https://github.com/davidvlucca/Pokedex",
+    demo: "https://project2-react-app.netlify.app/",
   },
   {
     id: 4,
-    title: "Move.it",
-    description:
-      "Aplicação da NLW#04 da Rocketseat. Desenvolvida com React. Plataforma de Pomodoro com exercícios.",
-    technologies: ["React JS", "NextJS"],
-    img: "placeholder2.png",
+    title: "Mario Breakout",
+    desc:
+      "portfolio.mario_desc",
+    technologies: ["JavaScript", "CSS"],
+    img: "mario_square.webp",
+    github: "https://github.com/davidvlucca/project_mario_breakout",
+    demo: "https://davidvlucca.github.io/project_mario_breakout/",
   },
 ];

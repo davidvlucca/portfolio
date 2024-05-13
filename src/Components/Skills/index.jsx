@@ -7,15 +7,19 @@ import { IoLogoHtml5 } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io5";
 import { SiDaisyui } from "react-icons/si";
 
+import { useTranslation } from "react-i18next";
+
 function Technologies() {
+  const { t } = useTranslation("global");
+
   return (
-    <div className="px-4 mM:px-2 mS:px-0 pb-10">
+    <div className="px-6 mM:px-2 mS:px-0 pb-10">
       <div className="py-1 px-4 md:p-10">
-        <h3 className="text-white text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
-          🧑‍💻 Skills
+        <h3 className="text-white md:text-2xl text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
+          {t("skills.emoji")}
         </h3>
-        <h1 className="text-2xl mS:text-xl w-1/2 text-left py-5 font-extrabold">
-          Tecnologias e habilidades
+        <h1 className="text-2xl md:text-3xl mS:text-xl md:w-2/3 w-1/2 text-left py-5 font-extrabold">
+          {t("skills.title")}
         </h1>
         <div className="flex space-x-5 max-w-[100vw]">
           <FaReact className=" h-14 w-auto" />

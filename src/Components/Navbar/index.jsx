@@ -51,18 +51,18 @@ function Navbar() {
             />
 
             {/* sun icon */}
-            <PiSunBold className="swap-on fill-current w-8 h-auto cursor-pointer" />
+            <PiSunBold className="swap-on fill-current 2xl:w-10 w-8 h-auto cursor-pointer" />
 
             {/* moon icon */}
-            <PiMoonBold className="swap-off fill-current w-8 h-auto" />
+            <PiMoonBold className="swap-off fill-current 2xl:w-10 w-8 h-auto" />
           </label>
         </div>
-        <div className="navbar-center text-3xl md:hidden">
+        <div className="navbar-center text-3xl lg:text-4xl ">
           <div className="flex flex-row space-x-2">
             <a
               href="https://www.linkedin.com/in/davidvlucca/"
               target="_blank"
-              className="hover:opacity-70 transition-opacity duration-300 cursor-pointer"
+              className="hover:opacity-70 transition-opacity duration-300  cursor-pointer"
             >
               <RxLinkedinLogo />
             </a>
@@ -82,7 +82,7 @@ function Navbar() {
             </a>
           </div>
         </div>
-        <div className="navbar-end text-xl">
+        <div className="navbar-end text-xl xl:text-2xl 2xl:text-3xl ">
           <label className="swap">
             <input type="checkbox" onClick={toggleLanguage} />
             <div className="swap-on font-semibold">ENG</div>

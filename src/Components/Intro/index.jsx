@@ -1,4 +1,4 @@
-
+import { useTranslation } from "react-i18next";
 
 // z-index: 0;
 //   display: flex;
@@ -16,14 +16,20 @@
 // }
 
 function Intro() {
+  const { t } = useTranslation("global");
+
   return (
     <div className=" md:px-16 px-8 mM:px-6 mS:px-4 ">
       <div className="py-12 mM:py-8 mS:py-4">
         <h3 className="text-white md:text-3xl text-xl mM:text-base font-bold px-3 py-1 rounded-xl w-fit bg-[#333333]/50">
-          👋 Hey!
+          {t("intro.emoji")}
         </h3>
-        <h1 className="text-left pt-3 md:text-8xl text-6xl mM:text-5xl font-extrabold">David Lucca</h1>
-        <p className="text-left font-normal md:text-4xl text-2xl mM:text-xl">Front-End Developer</p>
+        <h1 className="text-left pt-3 4xl:text-9xl md:text-8xl text-6xl mM:text-5xl font-extrabold">
+          David Lucca
+        </h1>
+        <p className="text-left font-normal md:text-4xl text-2xl mM:text-xl">
+          {t("intro.title")}
+        </p>
       </div>
       {/* <div className="flex space-x-5 align-middle  items-center ">
         <a
