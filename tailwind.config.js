@@ -9,6 +9,9 @@ export default {
   theme: {
     extend: {
       screens: {
+        "5xl": { min: "3840px" },
+        "4xl": { min: "2560px" },
+        "3xl": { min: "1920px" },
         xs: { max: "640px" }, // everything under 768px
         mL: { max: "425px" }, // mobile L
         mM: { max: "375px" }, // mobile M
