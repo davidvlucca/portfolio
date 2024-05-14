@@ -51,7 +51,6 @@ function ProjectsMobile() {
                   ))}
                 </div>
               </div>
-              {/* Container for image and buttons */}
               <div className="flex flex-col justify-end">
                 <img
                   src={item.img}

@@ -17,8 +17,8 @@ function ProjectsDesktop() {
         </h1>
       </div>
       <div className="hidden lg:grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-12 2xl:grid-cols-4 xl:gap-x-6 xl:gap-y-12 md:px-12 md:p-10">
-        {/* Mapping through projectsInfo array */}
 
+        {/* Mapping through projectsInfo array */}
         {projectsInfo.map((project) => (
           <div
             key={project.id}
@@ -59,7 +59,6 @@ function ProjectsDesktop() {
               </p>
 
               <div className=" flex flex-wrap flex-end gap-2 justify-end ">
-                {/* You can add buttons for GitHub or Demo if available */}
                 <div className="flex space-x-3 justify-end ">
                   <button className=" ">
                     <a
@@ -76,9 +75,13 @@ function ProjectsDesktop() {
                       href={project.demo}
                       className="text-right flex space-x-1 items-center hover:opacity-70 transition-opacity duration-300"
                     >
-                      <h1 className="text-white text-base flex space-x-2 font-bold px-4 py-2 rounded-xl bg-black items-center">
-                        <p>Demo</p>
-                        <HiExternalLink className=" h-4 w-auto" />
+                      <h1 className="text-white text-base flex font-bold px-4 py-2 rounded-xl bg-black items-center">
+                        {project.technologies.some((tech) =>
+                          tech.toLowerCase().includes("online")
+                        )
+                          ? "Live"
+                          : "Demo"}
+                        <HiExternalLink className="h-4 pl-2 w-auto" />
                       </h1>
                     </a>
                   </button>
