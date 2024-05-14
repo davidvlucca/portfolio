@@ -75,9 +75,13 @@ function ProjectsMobile() {
                       href={item.demo}
                       className="text-left flex space-x-1 items-center hover:opacity-70 transition-opacity duration-300"
                     >
-                      <h1 className="text-white text-base flex space-x-2 font-bold px-4 py-2 rounded-xl bg-black items-center">
-                        <p>Demo</p>
-                        <HiExternalLink className="h-4 w-auto" />
+                      <h1 className="text-white text-base flex font-bold px-4 py-2 rounded-xl bg-black items-center">
+                        {item.technologies.some((tech) =>
+                          tech.toLowerCase().includes("online")
+                        )
+                          ? "Live"
+                          : "Demo"}
+                        <HiExternalLink className="h-4 pl-2 w-auto" />
                       </h1>
                     </a>
                   </button>

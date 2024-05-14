@@ -10,10 +10,10 @@ function Hero() {
 
 
   return (
-    <div className="md:px-6 mM:px-2 mS:px-0">
+    <div className="md:px-6 mL:px-4 mM:px-2 mS:px-0">
       <div className="hero py-12 mM:py-8 mS:py-4  ">
         <div className="xl:max-w-[90vw] 2xl:max-w-[80vw] z-0 flex items-center justify-center gap-4 p-4 flex-col xl:flex-row xl:space-x-10">
-          <img src="/me.jpg" className=" rounded-full shadow-2xl" />
+          <img src="/davidlucca.jpg" className=" rounded-full shadow-2xl" />
           <div className="text-left px-4 mL:px-0 mM:px-0 mS:px-0 pt-10 m-0 p-0">
             <h3 className="text-white 3xl:text-3xl mS:text-base mM:text-lg md:text-2xl text-xl font-bold px-3 py-2 rounded-xl w-fit bg-[#333333]/50">
               {t("about.emoji")}
