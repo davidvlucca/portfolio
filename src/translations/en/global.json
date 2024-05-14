@@ -11,7 +11,7 @@
     "cv": "Download Resume"
   },
   "portfolio": {
-    "emoji": "🔗 Portfolio",
+    "emoji": "📂 Portfolio",
     "title": "Jobs and Projects",
     "marques_jr_desc": "The Marques Jr. barbershop application is developed using React, providing a user-friendly interface for customers to book appointments and explore services. It's made responsive with Tailwind CSS, ensuring seamless functionality across various devices.",
     "kampus_desc": "Kampus is a web app transforming campus management, simplifying student and staff tasks. It enhances onboarding and daily campus life with organizational tools.",

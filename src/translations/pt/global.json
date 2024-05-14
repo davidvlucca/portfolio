@@ -11,7 +11,7 @@
     "cv": "Baixar Currículo"
   },
   "portfolio": {
-    "emoji": "🔗 Portfólio",
+    "emoji": "📂 Portfólio",
     "title": "Trabalhos e Projetos",
     "marques_jr_desc": "A aplicação da barbearia Marques Jr. é desenvolvida utilizando React, proporcionando uma interface amigável para os clientes agendarem consultas e explorarem os serviços. É feita responsiva com Tailwind CSS, garantindo funcionalidade perfeita em vários dispositivos.",
     "kampus_desc": "Kampus é um aplicativo web que transforma a gestão de campus, simplificando tarefas de alunos e funcionários. Ele melhora a integração e a vida diária no campus com ferramentas organizacionais.",
