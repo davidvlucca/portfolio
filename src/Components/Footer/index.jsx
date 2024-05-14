@@ -7,9 +7,7 @@ function Footer() {
     <div className="">
       <div className=" flex xs:flex-col-reverse xs:gap-3 xs:p-5 items-center w-full  p-4 justify-between bg-neutral text-neutral-content md:px-6 lg:px-8 ">
         <div>
-          <p className="  text-sm">
-            Copyright © 2024 - All right reserved
-          </p>
+          <p className="  text-sm">Copyright © 2024 - All right reserved</p>
         </div>
         <div className="flex flex-row space-x-3">
           <a
@@ -27,7 +25,7 @@ function Footer() {
             <RxGithubLogo className="w-7  h-auto" />
           </a>
           <a
-            href="https://wa.me/968038514"
+            href="https://api.whatsapp.com/send?phone=351968038514"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
           >

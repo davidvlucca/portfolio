@@ -74,7 +74,7 @@ function Navbar() {
               <RxGithubLogo />
             </a>
             <a
-              href="https://wa.me/968038514"
+              href="https://api.whatsapp.com/send?phone=351968038514"
               target="_blank"
               className="hover:opacity-70 transition-opacity duration-300 "
             >
