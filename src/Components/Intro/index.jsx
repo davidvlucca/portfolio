@@ -1,10 +1,19 @@
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 import { useTranslation } from "react-i18next";
 
 function Intro() {
   const { t } = useTranslation("global");
 
+  const [text] = useTypewriter({
+    words: ["Front-End Developer", "React Developer", "Web Developer", "Full Stack Developer"],
+    loop: true,
+    typeSpeed: 120,
+    deleteSpeed: 50,
+  });
+
   return (
-    <div className=" md:px-16 px-8 mM:px-6 mS:px-4 ">
+    <div className="md:px-16 px-8 mM:px-6 mS:px-4">
       <div className="py-12 mM:py-8 mS:py-4">
         <h3 className="text-white md:text-3xl text-xl mM:text-base font-bold px-3 py-1 rounded-xl w-fit bg-[#333333]/50">
           {t("intro.emoji")}
@@ -13,7 +22,10 @@ function Intro() {
           David Lucca
         </h1>
         <p className="text-left font-normal md:text-4xl text-2xl mM:text-xl">
-          {t("intro.title")}
+          <span>
+            {text}
+            <Cursor/>
+          </span>
         </p>
       </div>
     </div>
