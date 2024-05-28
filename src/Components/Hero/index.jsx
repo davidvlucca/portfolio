@@ -5,8 +5,7 @@ import { MdDownload } from "react-icons/md";
 function Hero() {
   const { t } = useTranslation("global");
 
-  const CVPath = "/davidlucca_CV.pdf";
-
+  const CVPath = "/CV_davidlucca.pdf";
 
   return (
     <div className="md:px-6 mL:px-4 mM:px-2 mS:px-0">
