@@ -63,6 +63,7 @@ function Navbar() {
               href="https://www.linkedin.com/in/davidvlucca/"
               target="_blank"
               className="hover:opacity-70 transition-opacity duration-300  cursor-pointer"
+              aria-label="LinkedIn Profile"
             >
               <RxLinkedinLogo />
             </a>
@@ -70,6 +71,7 @@ function Navbar() {
               href="https://github.com/davidvlucca"
               target="_blank"
               className="hover:opacity-70 transition-opacity duration-300 "
+              aria-label="GitHub Profile"
             >
               <RxGithubLogo />
             </a>
@@ -77,6 +79,7 @@ function Navbar() {
               href="https://api.whatsapp.com/send?phone=351968038514"
               target="_blank"
               className="hover:opacity-70 transition-opacity duration-300 "
+              aria-label="Whatsapp Contact"
             >
               <IoLogoWhatsapp />
             </a>

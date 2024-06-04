@@ -9,7 +9,7 @@ function ProjectsDesktop() {
   return (
     <div className="px-4">
       <div className=" md:px-10 hidden lg:block">
-        <h3 className="text-white md:text-2xl text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
+        <h3 className="text-white mS:text-base mM:text-lg md:text-2xl text-xl font-bold px-3 py-2 rounded-xl w-fit bg-[#333333]/50">
           {t("portfolio.emoji")}
         </h3>
         <h1 className="text-2xl md:w-full w-1/2 text-left md:text-4xl py-5 font-extrabold">
@@ -41,7 +41,7 @@ function ProjectsDesktop() {
                   <div
                     key={index}
                     className={`text-white text-sm font-bold px-4 py-2 rounded-xl w-fit ${
-                      tech === "Online" ? "bg-green-500" : "bg-[#333333]/50"
+                      tech === "Online" ? "bg-green-700" : "bg-[#333333]/50"
                     }`}
                   >
                     {tech}
@@ -60,7 +60,7 @@ function ProjectsDesktop() {
 
               <div className=" flex flex-wrap flex-end gap-2 justify-end ">
                 <div className="flex space-x-3 justify-end ">
-                  <button className=" ">
+                  <button className=" " aria-label="GitHub">
                     <a
                       href={project.github}
                       className="text-right flex space-x-1 items-center hover:opacity-70 transition-opacity duration-300"

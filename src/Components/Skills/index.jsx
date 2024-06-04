@@ -15,7 +15,7 @@ function Technologies() {
   return (
     <div className="px-6 mM:px-2 mS:px-0 pb-10">
       <div className="py-1 px-4 md:p-10">
-        <h3 className="text-white md:text-2xl text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
+        <h3 className="text-white mS:text-base mM:text-lg md:text-2xl text-xl font-bold px-3 py-2 rounded-xl w-fit bg-[#333333]/50">
           {t("skills.emoji")}
         </h3>
         <h1 className="text-2xl md:text-3xl mS:text-xl md:w-2/3 w-1/2 text-left py-5 font-extrabold">

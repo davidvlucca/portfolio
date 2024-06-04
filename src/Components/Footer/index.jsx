@@ -14,6 +14,7 @@ function Footer() {
             href="https://www.linkedin.com/in/davidvlucca/"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
+            aria-label="LinkedIn Profile"
           >
             <RxLinkedinLogo className="w-7 h-auto" />
           </a>
@@ -21,6 +22,7 @@ function Footer() {
             href="https://github.com/davidvlucca"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
+            aria-label="GitHub Profile"
           >
             <RxGithubLogo className="w-7 h-auto" />
           </a>
@@ -28,6 +30,7 @@ function Footer() {
             href="https://api.whatsapp.com/send?phone=351968038514"
             target="_blank"
             className="hover:opacity-70 transition-opacity duration-300 "
+            aria-label="Whatsapp Contact"
           >
             <IoLogoWhatsapp className="w-7 h-auto" />
           </a>

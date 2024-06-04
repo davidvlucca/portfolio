@@ -10,7 +10,7 @@ function ProjectsMobile() {
   return (
     <div className="pb-10 px-4 mM:px-2 mS:px-0 lg:hidden">
       <div className="py-1 px-4 md:p-10">
-        <h3 className="text-white md:text-2xl text-xl font-bold px-4 py-2 rounded-xl w-fit bg-[#333333]/50">
+        <h3 className="text-white mS:text-base mM:text-lg md:text-2xl text-xl font-bold px-3 py-2 rounded-xl w-fit bg-[#333333]/50">
           {t("portfolio.emoji")}
         </h3>
         <h1 className="text-2xl md:w-full w-1/2 text-left md:text-4xl py-5 font-extrabold">
