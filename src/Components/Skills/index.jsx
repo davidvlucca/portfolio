@@ -1,4 +1,5 @@
 import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
@@ -23,11 +24,12 @@ function Technologies() {
         </h1>
         <div className="flex space-x-5 max-w-[100vw]">
           <FaReact className=" h-14 w-auto" />
+          <SiTypescript className="h-14 w-auto" />
           <IoLogoJavascript className=" h-14 w-auto" />
           <SiTailwindcss className=" h-14 w-auto" />
           <FaNodeJs className=" h-14 w-auto" />
           <BiLogoMongodb className=" mS:hidden h-14 w-auto" />
-          <SiDaisyui className=" mM:hidden h-14 w-auto" />
+          <SiDaisyui className="hidden sm:block h-14 w-auto" />
           <IoLogoHtml5 className="hidden sm:block h-14 w-auto" />
           <IoLogoCss3 className="hidden sm:block h-14 w-auto" />
         </div>
