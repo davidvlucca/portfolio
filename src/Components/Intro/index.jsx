@@ -6,7 +6,12 @@ function Intro() {
   const { t } = useTranslation("global");
 
   const [text] = useTypewriter({
-    words: ["Front-End Developer", "React Developer", "Web Developer", "Full Stack Developer"],
+    words: [
+      "Full Stack Developer",
+      "React Developer",
+      "Web Developer",
+      "Front-End Developer",
+    ],
     loop: true,
     typeSpeed: 120,
     deleteSpeed: 50,
@@ -24,7 +29,7 @@ function Intro() {
         <p className="text-left font-normal md:text-4xl text-2xl mM:text-xl">
           <span>
             {text}
-            <Cursor/>
+            <Cursor />
           </span>
         </p>
       </div>
