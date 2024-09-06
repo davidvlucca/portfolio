@@ -13,6 +13,7 @@
   "portfolio": {
     "emoji": "📂 Portfólio",
     "title": "Trabalhos e Projetos",
+    "roberta_castro_desc":"Desenvolvi o site de uma escritora de romances, usando HTML, CSS e JavaScript. O site apresenta sua biografia, um blog com atualizações sobre seu primeiro livro e links para redes sociais, facilitando a conexão com leitores e acompanhando sua evolução literária.",
     "marques_jr_desc": "A aplicação da barbearia Marques Jr. é desenvolvida utilizando React, proporcionando uma interface amigável para os clientes agendarem consultas e explorarem os serviços. É feita responsiva com Tailwind CSS, garantindo funcionalidade perfeita em vários dispositivos.",
     "kampus_desc": "Kampus é um aplicativo web que transforma a gestão de campus, simplificando tarefas de alunos e funcionários. Ele melhora a integração e a vida diária no campus com ferramentas organizacionais.",
     "pokedex_desc": "Uma Single Page Application com React, apresentando várias visualizações. O aplicativo React interage perfeitamente com um backend simulado e uma API externa, lidando com todas as operações CRUD no backend.",
